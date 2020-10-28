@@ -8,8 +8,18 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
+    const policy = {
+        id: req.body.id,
+        amountInsured: req.body.amountInsured,
+        email: req.body.email,
+        inceptionDate: req.body.role.inceptionDate,
+        installmentPayment: req.body.role.installmentPayment,
+        clientId: req.body.role.clientId,
+
+    }
     res.status(201).json({
-        message: 'Policy was created'
+        message: 'Policy was created',
+        createdPolicy: policy
     });
 });
 
