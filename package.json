@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "Node.js Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsodelag/NodeJS-test.git"
+  },
+  "author": "Alfonso De La Guardia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfonsodelag/NodeJS-test/issues"
+  },
+  "homepage": "https://github.com/alfonsodelag/NodeJS-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
